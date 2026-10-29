@@ -1,0 +1,234 @@
+
+
+            header{
+                font-size: xx-large;
+                font-style: italic;
+                text-align: center;
+            }
+            body{
+                background-color: #D2E4F9;
+            }
+            footer{
+                text-align: center;
+                color: blue;
+            }
+            nav{
+                width: 80%;
+                border-radius: 100px;
+                padding: 15px;
+                backdrop-filter: blur(10px);
+                margin-top: 10px;
+                transform: translateX(10%);
+                text-align: center;  
+                border: 2px solid;
+            }
+            nav a{
+                color: black;
+                text-decoration: none;
+                margin-right: 30px;
+                font-size: 18px;
+            }
+            nav a:hover{
+                color: green;
+            }
+
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+            }
+            
+/*gallery*/
+.gallery-container {
+padding: 10px;
+width: 400px;
+border-radius: 15px;
+}
+.gallery-container img{
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.gallery-container img:hover{
+    box-shadow: 8px;
+    transform: translateY(5px);
+}
+.container-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+} 
+
+/*about*/
+.container-wrapper2 {
+    display: flex;
+    gap: 0px;
+    justify-content: left;
+}
+.container2 {
+ padding: 20px;
+ width: 800px;
+ background-color: #D9D9D9;     
+}
+.container3 {
+ padding: 20px;
+ width: 400px;
+ background-color: lightcyan;    
+}
+.container3 video{
+    display: block;
+    width: 100%;
+    height: 220px;
+    border-radius: 15px;
+}
+/*home*/
+.container-wrapper4{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+.container1{
+    padding: 50px;
+    border-radius: 15px;
+    width: 65%;
+    backdrop-filter: blur(10px);
+}
+ .container4 {
+    backdrop-filter: blur(3px);
+     border-radius: 5px;
+     padding: 20px;
+     width: 400px;   
+} 
+ 
+/*Services*/
+.container-wrapper5 {
+    display: flex;
+    gap: 5px;
+    justify-content: right;
+}
+.container5 {
+     border-radius: 20px;
+     border: solid black;
+     padding: 15px;
+     width: 400px;
+     background-color: #D9D9D9;   
+}
+ .banner{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    border: solid black;
+    height: auto;
+    margin: 20px auto;
+ }
+ /*contact form*/
+ .contact-container{
+    max-width: 650px;
+    width: 90%;
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-sizing: border-box;
+ }
+ .contact-container h2{
+    text-align: center;
+    color: green;
+    margin-bottom: 10px;
+ }
+ .contact-container p{
+    text-align: center;
+    color: green;
+    line-height: 1.7;
+    margin-bottom: 25px;
+ }
+ .contact-container label{
+    display: block;
+    color: #263a30;
+    font-weight: bold;
+    margin: 6px;
+ }
+.contact-container button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.contact-container button:hover{
+    background-color: green;
+}
+.contact-container input,
+.contact-container textarea{
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+#imagePreview {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+#largeImage {
+    max-width: 80%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+#imagePreview button {
+    background: #ffffff;
+    color: #222;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#closePreview {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.03);
+}
+    #largeImage {
+        max-width: 75%;
+        max-height: 70vh;
+    }
+
+    #imagePreview button {
+        padding: 7px;
+        font-size: 16px;
+    }
+    
+
+
+
